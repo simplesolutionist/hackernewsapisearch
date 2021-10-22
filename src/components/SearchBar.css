@@ -1,0 +1,38 @@
+.search-bar {
+    display:flex;
+    margin: 2rem auto;
+    justify-content:center;
+    position:relative;
+    top:-150px;
+  }
+  .search-bar button {
+    display:flex;
+    font: inherit;
+    cursor: pointer;
+    padding: 7px 50px;
+    background-color: #FF6600;
+    color: white;
+  }
+  .search-form__controls {
+    display: flex;
+    float:left;
+    flex-wrap: wrap;
+    text-align: left;
+  }
+  .search-form__control label {
+    font-weight: bold;
+    display: block;
+  }
+  .search-form__control input {
+    font: inherit;
+    display:flex;
+    float:left;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    width: 500px;
+  }
+  .search-form__actions {
+    display:flex;
+    float:right;
+  }
+  
