@@ -1,6 +1,6 @@
 import Search from './Search';
 
-const SearchList = ({ results }) => {
+const SearchResults = ({ results }) => {
   let data = [];
 
   if (results) {
@@ -23,4 +23,4 @@ const SearchList = ({ results }) => {
   );
 };
 
-export default SearchList;
+export default SearchResults;

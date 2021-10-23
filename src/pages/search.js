@@ -1,7 +1,7 @@
 import API from '../api/API';
 import { useContext, useState } from 'react';
 import SearchContext from '../store/SearchContext';
-import SearchList from '../components/SearchList';
+import SearchResults from '../components/SearchResults';
 import SearchBar from '../components/SearchBar';
 
 const Search = () => {
@@ -27,7 +27,7 @@ const Search = () => {
     <div>
       <div>
         <SearchBar onSearch={onSearch} />
-        <SearchList results={search.results} />
+        <SearchResults results={search.results} />
       </div>
     </div>
   );

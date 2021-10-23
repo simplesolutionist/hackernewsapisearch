@@ -1,4 +1,4 @@
-import HistoryList from '../components/HistoryList';
+import HistoryResults from '../components/HistoryResults';
 import SearchContext from '../store/SearchContext';
 import { useContext } from 'react';
 
@@ -15,7 +15,7 @@ const History = () => {
     <div className="result">
       Search History
       {data.map((item) => (
-        <HistoryList key={item.id} title={item.title} />
+        <HistoryResults key={item.id} title={item.title} />
       ))}
     </div>
   );

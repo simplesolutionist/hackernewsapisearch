@@ -31,7 +31,7 @@
     border: 1px solid #ccc;
     width: 500px;
   }
-  .search-form__actions {
+  .search-submit {
     display:flex;
     float:right;
   }

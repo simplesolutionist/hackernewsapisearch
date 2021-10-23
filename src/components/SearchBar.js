@@ -33,7 +33,7 @@ const SearchBar = (props) => {
             />
           </div>
         </div>
-        <div className="search-form__actions">
+        <div className="search-submit">
         <button type="submit">Search</button>
         </div>
       </form>
